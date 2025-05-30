@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Course Portal</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Course Registration Form</h2>
+        <form action="index.html">
+            <div class="mb-3">
+                <label class="form-lable">Full Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-lable">Email address</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-lable">Select Course</label>
+                <select class="form-select" required>
+                    <option value="">choose...</option>
+                    <option>Web Development</option>
+                    <option>Data Science</option>
+                    <option>java Programming</option>
+                    <option>AI & ML</option>
+                    <option>Deep Learning</option>
+                    <option>Cyber Security</option>
+                    <option>Cloud Computing</option>
+                    <option>MERN Stack</option>
+                    <option>Block Chain</option>
+                    <option>Digital Marketing</option>
+                </select>
+            </div>
+            <button type="sumbit" class="btn  btn-success">Register</button>
+        </form>
+    </div>
+</body>
+</html>
