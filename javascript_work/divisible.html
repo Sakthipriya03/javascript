@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divisible</title>
+</head>
+<body>
+    <h1>Dividible by any number</h1>
+    <script>
+        var z = parseInt(prompt("Enter the number: "));
+        function divisible(z)
+        {
+            if(z==0)
+        {
+            console.log("cannot divisible by zero!");
+        }
+        for(let i=1;i<=100;i++)
+        {
+            if(i%z==0)
+        {
+            document.write(i +" ");
+        }
+        }
+        }
+        divisible(z);
+    </script>
+</body>
+</html>
